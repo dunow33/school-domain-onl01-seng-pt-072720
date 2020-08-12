@@ -31,5 +31,7 @@ class School
       
       puts student
     end
+    
+    roster
   end
 end
