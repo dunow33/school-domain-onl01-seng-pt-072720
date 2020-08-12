@@ -21,7 +21,10 @@ class School
     students = []
     
     roster.each do | grade1, student |
-      if 
+      if grade1 == grade
+        students << student
+      end
     end
+    students
   end
 end
