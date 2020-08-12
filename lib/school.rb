@@ -22,9 +22,8 @@ class School
     
     roster.each do | grade1, student |
       if grade1 == grade
-        students << student
+        return student
       end
     end
-    students
   end
 end
