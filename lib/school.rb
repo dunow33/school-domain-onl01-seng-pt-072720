@@ -30,6 +30,6 @@ class School
       student.sort
     end
     
-    puts
+    puts roster
   end
 end
