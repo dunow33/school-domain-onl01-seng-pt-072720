@@ -30,6 +30,6 @@ class School
       student.sort
     end
     
-    @roster
+    roster
   end
 end
