@@ -26,6 +26,10 @@ class School
   end
   
   def sort
-    roster.sort
+    roster.each do | grade1, student |
+      if grade1 == grade
+        return student
+      end
+    end
   end
 end
