@@ -18,8 +18,6 @@ class School
   end
   
   def grade(grade)
-    students = []
-    
     roster.each do | grade1, student |
       if grade1 == grade
         return student
