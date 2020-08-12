@@ -27,9 +27,10 @@ class School
   
   def sort
     roster.each do | grade1, student |
-      if grade1 == grade
-        return student
+        student.sort
       end
     end
+    
+    roster
   end
 end
