@@ -18,6 +18,10 @@ class School
   end
   
   def grade(grade)
-    roster.each do | grade, student |
+    students = []
+    
+    roster.each do | grade1, student |
+      if 
+    end
   end
 end
