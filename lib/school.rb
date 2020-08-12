@@ -27,7 +27,9 @@ class School
   
   def sort
     roster.each do | grade, student |
-        student.sort
+      grade.each do | value |
+        value.sort
+      end
     end
     
     roster
